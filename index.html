@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Finanzas Sync</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8fafc; color: #1e293b;
+      line-height: 1.7; font-size: 16px;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+    header { border-bottom: 2px solid #6366f1; padding-bottom: 24px; margin-bottom: 40px; }
+    h1 { font-size: 1.8rem; font-weight: 800; color: #0f172a; }
+    .meta { font-size: 0.82rem; color: #64748b; margin-top: 6px; }
+    h2 { font-size: 1.05rem; font-weight: 700; color: #0f172a;
+         margin: 36px 0 10px; padding-left: 12px;
+         border-left: 3px solid #6366f1; }
+    p  { margin-bottom: 12px; color: #334155; font-size: 0.95rem; }
+    ul { margin: 8px 0 12px 20px; color: #334155; font-size: 0.95rem; }
+    ul li { margin-bottom: 6px; }
+    a  { color: #6366f1; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: #f1f5f9; border: 1px solid #e2e8f0;
+      border-radius: 10px; padding: 16px 20px; margin: 12px 0;
+      font-size: 0.9rem; color: #475569;
+    }
+    footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #e2e8f0;
+             font-size: 0.78rem; color: #94a3b8; text-align: center; }
+  </style>
+</head>
+<body>
+<div class="wrap">
 
+  <header>
+    <h1>Política de Privacidad</h1>
+    <div class="meta">Finanzas Sync &nbsp;·&nbsp; Última actualización: junio 2026</div>
+  </header>
+
+  <h2>1. Quién es el responsable</h2>
+  <p>Finanzas Sync es una aplicación de gestión de finanzas personales desarrollada de manera independiente. Para dudas sobre privacidad puedes escribir a <a href="mailto:gamboa.leyva93@gmail.com">soporte@finanzassync.app</a>.</p>
+
+  <h2>2. Qué datos recopilamos</h2>
+  <p>Finanzas Sync recopila únicamente la información que tú ingresas de forma voluntaria:</p>
+  <ul>
+    <li>Correo electrónico y contraseña (para crear y autenticar tu cuenta)</li>
+    <li>Datos financieros personales: ingresos, gastos, bancos, metas de ahorro y movimientos que registras manualmente</li>
+    <li>Configuración de la app: frecuencia de cobro, preferencias de visualización y temas</li>
+  </ul>
+  <div class="highlight">
+    No recopilamos datos de ubicación, contactos, historial de navegación, ni información biométrica.
+  </div>
+
+  <h2>3. Cómo usamos tus datos</h2>
+  <p>Tus datos se utilizan exclusivamente para:</p>
+  <ul>
+    <li>Sincronizar tu información financiera entre dispositivos mediante tu cuenta</li>
+    <li>Mostrarte resúmenes, distribuciones y alertas dentro de la app</li>
+    <li>Enviarte notificaciones locales sobre vencimientos y recordatorios que tú configuras</li>
+  </ul>
+  <p>No usamos tus datos financieros para publicidad, análisis de mercado ni los compartimos con terceros.</p>
+
+  <h2>4. Con quién compartimos tu información</h2>
+  <p>Finanzas Sync utiliza los siguientes servicios de terceros para su funcionamiento:</p>
+  <ul>
+    <li><strong>Firebase (Google LLC):</strong> Autenticación de usuarios y almacenamiento de datos en la nube. Tus datos se almacenan en servidores de Google con cifrado en tránsito (TLS) y en reposo. Consulta la <a href="https://firebase.google.com/support/privacy" target="_blank">política de privacidad de Firebase</a>.</li>
+    <li><strong>Google Cloud Messaging:</strong> Envío de notificaciones push cuando la app está en segundo plano.</li>
+  </ul>
+  <p>No vendemos, alquilamos ni cedemos tu información a terceros con fines comerciales.</p>
+
+  <h2>5. Seguridad</h2>
+  <p>Implementamos las siguientes medidas para proteger tu información:</p>
+  <ul>
+    <li>Autenticación segura mediante Firebase Authentication</li>
+    <li>Reglas de acceso en Firestore que garantizan que cada usuario solo puede leer y escribir sus propios datos</li>
+    <li>Comunicación cifrada mediante HTTPS/TLS en todas las transferencias de datos</li>
+  </ul>
+
+  <h2>6. Retención de datos</h2>
+  <p>Tus datos se conservan mientras mantengas una cuenta activa en Finanzas Sync. Si eliminas tu cuenta, tus datos se borran de nuestros servidores en un plazo máximo de 30 días.</p>
+
+  <h2>7. Tus derechos</h2>
+  <p>Tienes derecho a:</p>
+  <ul>
+    <li><strong>Acceder</strong> a tus datos en cualquier momento desde la sección Exportar datos (Config)</li>
+    <li><strong>Corregir</strong> cualquier información incorrecta directamente en la app</li>
+    <li><strong>Eliminar</strong> tu cuenta y todos tus datos escribiendo a nuestro correo de soporte</li>
+    <li><strong>Portabilidad:</strong> exportar tus datos en formato JSON desde Config → Exportar datos</li>
+  </ul>
+
+  <h2>8. Menores de edad</h2>
+  <p>Finanzas Sync no está dirigida a menores de 13 años. No recopilamos intencionalmente información de menores. Si detectamos que un usuario es menor de 13 años, eliminamos su cuenta y datos de inmediato.</p>
+
+  <h2>9. Notificaciones</h2>
+  <p>La app puede solicitar permiso para enviar notificaciones locales relacionadas con fechas de pago, vencimientos de tarjetas y recordatorios financieros. Puedes desactivar estas notificaciones en cualquier momento desde la configuración de tu dispositivo. No enviamos notificaciones con fines publicitarios.</p>
+
+  <h2>10. Cambios a esta política</h2>
+  <p>Podemos actualizar esta política en cualquier momento. Cuando lo hagamos, actualizaremos la fecha en la parte superior de esta página. Te recomendamos revisarla periódicamente. El uso continuado de la app después de los cambios implica aceptación de la política actualizada.</p>
+
+  <h2>11. Contacto</h2>
+  <p>Para ejercer tus derechos, solicitar eliminación de cuenta o cualquier duda sobre privacidad:</p>
+  <div class="highlight">
+    Correo: <a href="mailto:gamboa.leyva93@gmail.com">soporte@finanzassync.app</a><br>
+    Respuesta en un plazo máximo de 72 horas hábiles.
+  </div>
+
+  <footer>
+    Finanzas Sync &copy; 2026 &nbsp;·&nbsp; Todos los derechos reservados
+  </footer>
+
+</div>
+</body>
+</html>
